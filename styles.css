@@ -1,7 +1,10 @@
 /*===== GOOGLE FONTS =====*/
+
 /*@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");*/
 
-@import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -14,7 +17,7 @@
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
-  --body-font: /*'Poppins', sans-serif*/'Sunshiney', cursive;
+  --body-font: /*'Poppins', sans-serif*/ /*'Sunshiney', cursive;*/'Kalam', cursive;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
