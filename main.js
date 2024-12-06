@@ -55,7 +55,7 @@ sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
 
-var subForm = document.getElementsByClassName('contact__button')
+var subForm = document.getElementsByClassName('contact__button');
 var txtArea = document.getElementsByClassName('contact__input');
 subForm.onclick(){
   txtArea.value.clear()
