@@ -59,4 +59,4 @@ var subForm = document.getElementsByClassName('contact__button');
 var txtArea = document.getElementsByClassName('contact__input');
 window.addEventListener('click', function () {
   txtArea.value.clear()
-))
+})
