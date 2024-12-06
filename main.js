@@ -58,5 +58,5 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
 var subForm = document.getElementsByClassName('contact__button button')
 var txtArea = document.getElementsByClassName('contact__input')
 subForm.onclick(){
-  
+  txtArea.
 }
