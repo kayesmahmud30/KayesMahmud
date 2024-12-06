@@ -56,6 +56,7 @@ sr.reveal('.home__social-icon',{ interval: 200});
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
 
 var subForm = document.getElementsByClass('contact__button button')
+var 
 subForm.onclick(){
   
 }
