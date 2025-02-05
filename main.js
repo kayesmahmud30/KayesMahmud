@@ -66,14 +66,3 @@ var txtArea = document.getElementsByClassName("contact__input");
 window.addEventListener("click", function () {
     txtArea.value.clear();
 });
-
-document.getElementById("downloadCV").addEventListener("click", function () {
-    const cvUrl =
-        "https://drive.google.com/file/d/19wJORB5bE1eAa3CfU8KdDqDcImjIqXqC/view?usp=drivesdk"; // Replace with your raw GitHub file URL
-    const link = document.createElement("a");
-    link.href = cvUrl;
-    link.download = "My_CV.pdf"; // Name of the downloaded file
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-});
