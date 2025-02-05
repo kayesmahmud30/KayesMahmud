@@ -258,6 +258,9 @@ img {
   transition: .3s;
   color: #fff;
   font-family: var(--body-font);
+  outline: none;
+  border: none;
+  
 }
 
 .button:hover {
