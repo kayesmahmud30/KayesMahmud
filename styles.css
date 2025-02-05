@@ -247,17 +247,17 @@ img {
   font-weight: var(--font-semi);
   border-radius: .5rem;
   transition: .3s;
-  font-family: var(--body-font);
 }
 
 .button-CV {
   display: inline-block;
   background: #70183f;
-  padding: .75rem 2.5rem;
+  padding: .75rem 1.2rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
   transition: .3s;
-  color: #000;
+  color: #fff;
+  font-family: var(--body-font);
 }
 
 .button:hover {
